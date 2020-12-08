@@ -1,0 +1,16 @@
+string reverseWord(string str){
+    
+     int n= str.size();
+     int l=0;
+     int r=n-1;
+     while(l<r)
+     { int temp= str[l];
+     str[l]=str[r];
+     str[r]=temp;
+     l++;
+     r--;
+     }
+     
+     return str;
+     
+}
