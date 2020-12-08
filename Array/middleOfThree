@@ -1,0 +1,21 @@
+int middle(int A, int B, int C){
+        int min, max=A;
+         if (B >C)         
+        { 
+            if(C > A)     
+                return C;
+            else if(A > B)
+                return B;
+            else
+               return A;
+        } 
+        else       
+        { 
+            if (B>A)
+               return B;
+            else if(A>C)
+              return C;
+            else return A;
+                 
+        } 
+    }
